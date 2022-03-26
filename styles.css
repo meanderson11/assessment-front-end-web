@@ -1,0 +1,114 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+	border-radius: 50%;
+}
+
+html {
+	font-family: sans-serif;
+}
+
+ form {
+	width: 600px;
+	margin: 0 auto;
+} 
+
+div {
+	margin-bottom: 10px;	
+}
+
+fieldset {
+	background: white;
+	border: 5px solid rgb(32, 100, 85);  
+	width: 40%;
+	height: 10%;
+}
+
+legend {
+	padding: 10px;
+	background: rgb(40, 102, 81);
+	color: white;
+}
+
+
+.profile_heading {
+	color: rgb(5, 60, 85);
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.title {
+	color: grey;
+  font-size: 18px;
+ text-align: center;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.maria {
+	text-align: center;
+}
+
+.education {
+	text-align: center;
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+ul {
+	font-size: 15px;
+}
+
+button{
+	color: rgb(69, 69, 163);
+}
+button.favorite {
+	background-color: yellow;
+	display: inline;
+	width: 120px;
+	padding: 10px 15px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
