@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" />
+    <!-- <link href='https://fonts.googleapis.com/css?family=Dancing+Script|Handlee|Overlook' rel='stylesheet' type='text/css'> -->
     <title>Document</title>
+   
 </head>
 <body>
-    <img src="community.jpeg" alt="community"  class="life">
+    <a href="./profile.html"><< Back </a>
+    <br>
+    <header>
+        <img src="community.jpeg" class="w3-border w3-padding" alt="community">
+    </header>
 
-    <div class="description-text nextdoor-description-text">
-        It's where communities come together to greet newcomers, exchange recommendations, and read the latest local news. Where neighbors support local businesses and get updates from public agencies. Where neighbors borrow tools and sell couches. It's how to get the most out of everything nearby. Welcome, neighbor.
-    </div>
+   <p>It's where communities come together to greet newcomers, exchange recommendations, and read the latest local news. Where neighbors support local businesses and get updates from public agencies. Where neighbors borrow tools and sell couches. It's how to get the most out of everything nearby. Welcome, neighbor.</p>
+
     <br>
     <h2>Local Resturants</h2>
     <p><a href="http://www.vietdeliutah.com">Viet Deli</a></p>
@@ -24,5 +30,11 @@
     <p><a href="https://www.eaglemountain.com/colonial-park.php">Colonial Park</a></p>
     <p><a href="https://www.eaglemountain.com/cory-b-wride-memorial-park.php">Corey B Wride Memorial Park</a></p>
     <br>
+
+    <h1 id="dinnerQuestion">What's for Dinner?</h1>
+    <h2 id="restaurantNameDisplay"></h2>
+    <button id="randomRestaurantName">click for a random restaurant!</button>
+
+    <script src="neighborhood.js"></script> 
 </body>
 </html>
